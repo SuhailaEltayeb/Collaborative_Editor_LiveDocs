@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "../styles/dark-theme.css";
 
 /* ========================================== TAILWIND STYLES */
 @layer base {
