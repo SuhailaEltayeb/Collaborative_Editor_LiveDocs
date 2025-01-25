@@ -69,7 +69,7 @@ const CollaborativeRoom = ({ roomId, roomMetadata, users, currentUserType }: Col
             <div className="collaborative-room">
               <Header>
                 <div ref={containerRef} className="flex w-fit items-center justify-center gap-2">
-                  {editing && !loading ? (
+                    {editing && !loading ? (
                     <Input 
                       type="text"
                       value={documentTitle}

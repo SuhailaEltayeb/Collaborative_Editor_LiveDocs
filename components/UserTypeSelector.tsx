@@ -11,8 +11,7 @@ const UserTypeSelector = ({ userType, setUserType, onClickHandler }: UserTypeSel
     const accessChangeHandler = (type: UserType) => {
         setUserType(type);
         onClickHandler && onClickHandler(type);
-      }
-  return (
+    }
     return (
         <Select value={userType} onValueChange={(type: UserType) => accessChangeHandler(type)}>
           <SelectTrigger className="shad-select">
