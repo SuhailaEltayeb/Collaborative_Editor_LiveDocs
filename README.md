@@ -1,7 +1,7 @@
 **Introduction**
-Developed using Next.js for the user interface, Liveblocks is text editor powered with real-time collaboration features. 
+Developed using Next.js for the user interface, Liveblocks is a text editor powered by real-time collaboration features. 
 
-**Technology Stack**
+**Technologies used**
 - Next.js: A React framework for building server-rendered applications.
 - Clerk: A comprehensive user management platform.
 - TypeScript: Adds static typing to JavaScript for improved developer experience.
@@ -53,10 +53,10 @@ To set up the project on your local machine, follow these steps:
 3- Installation
     Install the necessary dependencies using npm:
 
-* npm install
+- npm install
 
-* Setting Up Environment Variables
-* Create a .env file in the project root and include the following:
+- Setting Up Environment Variables
+- Create a .env file in the project root and include the following:
 
 # Clerk
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
@@ -67,9 +67,9 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 # Liveblocks
 NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY=
 LIVEBLOCKS_SECRET_KEY=
-==> Fill in the placeholders with the actual credentials from Clerk and Liveblocks.
+==>  Enter the actual credentials from Clerk and Liveblocks.
 
 4- Running the Project
 Start the development server with:
 
-npm run dev
+- npm run dev
